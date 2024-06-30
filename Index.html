@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://use.typekit.net/xth2zgr.css" />
+    <meta charset="UTF-8" />
+    <title>Sophie Valkhof Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="Hdes">
+        <p>Hello! my name is Sophie Valkhof,</p>
+        <p>A Systems/Narrative designer with a</p>
+        <p>love for Game Design</p>
+        <p>and all things Eldritch Horror!</p>
+      </div>
+      <img src="Images\Jank.png" class="Ten1" style="width: 6%" />
+      <img src="Images\Jank.png" class="Ten2" style="width: 6%" />
+      <img src="Images\Jank 2.png" class="Ten3" style="width: 8%" />
+      <img src="Images\Jank 2.png" class="Ten4" style="width: 8%" />
+
+      <h1>Sophie Valkhof</h1>
+      <h4>Systems and Narrative Designer</h4>
+    </header>
+
+    <div id="Portfolio" class="sidenav1">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="toggleNav('Portfolio')"
+        >&times;</a
+      >
+      <div class="row">
+        <div class="column">
+          <figure>
+            <img src="Images\Leadleg.png" alt="Leadleg" style="width: 75%" />
+            <figcaption class="caption1">
+              Leadleg2069, Make Me Laugh Theme
+            </figcaption>
+            <figcaption class="caption1">Global Game Jam 2024</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure>
+            <img
+              src="Images/Catchapon.png"
+              alt="Catchapon"
+              style="width: 80%"
+            />
+            <figcaption class="caption2">Catchapon Madness,</figcaption>
+            <figcaption class="caption2">
+              Project Final Approach 2024
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure>
+            <img src="Images\Model.png" alt="Model" style="width: 65%" />
+            <figcaption class="caption3">A Cyberpunk 3D model</figcaption>
+            <figcaption class="caption3">Made to practice Modelling</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <span
+      class="PortfolioMark"
+      style="font-size: 20px; cursor: pointer"
+      onclick="toggleNav('Portfolio')"
+    >
+      Portfolio</span
+    >
+
+    <div id="Projects" class="sidenav2">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="toggleNav('Projects')"
+        >&times;</a
+      >
+      <div class="row">
+        <div class="column">
+          <figure>
+            <img src="Images/Logo2.png" alt="Logo2" style="width: 100%" />
+          </figure>
+        </div>
+        <div class="column">
+          <p>
+            That Which Never Was is a project I am working on during my free
+            time It's a TTRPG Cypher adaptation of the 6th History Domain from
+            Weather Factory The final product will be a ~120 page handbook on
+            how to run the setting Run Cypher in a gritty eldritch horror style
+            And in general how to create your own Eldritch setting for tabletop
+            RPGS
+          </p>
+
+          <p class="P2">
+            This is a cooperative project alongside some experienced writers and
+            Dungeon Masters It will be available for free online when the
+            project finishes When it is finished a link will be provided on this
+            site
+          </p>
+        </div>
+      </div>
+    </div>
+    <span
+      class="ProjectsMark"
+      style="font-size: 20px; cursor: pointer"
+      onclick="toggleNav('Projects')"
+    >
+      Projects</span
+    >
+
+    <div id="About_Me" class="sidenav3">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="toggleNav('About_Me')"
+        >&times;</a
+      >
+      <div class="row">
+        <div class="columninging">
+          <h3>About Me</h3>
+          <p>Hello! My name is Sophie Valkhof</p>
+          <p>
+            I am a 19 year old CMGT student currently at the end of my first
+            year
+          </p>
+          <p>While I specialise in Systems/Narrative design,</p>
+          <p>
+            I consider myself a general designer, being able to fill whatever role is needed in a team
+          </p>
+          <p>
+            On top of this, I am working on becoming a self sustainable designer
+          </p>
+          <p>
+            With the ability to work on prototypes without help from an Engineer
+            or Artist
+          </p>
+        </div>
+        <div class="columninging">
+          <h3>Skills</h3>
+          <h5>6 Years Writing Experience</h5>
+          <h5>2 Years Game Design</h5>
+          <h5>3D Modelling</h5>
+          <h5>Leading a team</h5>
+          <h5>Working with a variety of teammates</h5>
+
+          <h3>Tools</h3>
+          <h5>Maya/Blender</h5>
+          <h5>Gamemaker, Unity, Unreal</h5>
+          <h5>HTML, CSS, javascript</h5>
+          <h5>Adobe Pohotoshop, XD, Lightroom, Substance Painter</h5>
+          <h5>Premier pro, After Effects, Illustrator</h5>
+
+        </div>
+        <div class="columninging">
+          <h3>Find me on other platforms!</h3>
+          <h6><a href="https://www.linkedin.com/in/sophie-valkhof-3a89782b8/">LinkedIn</a></h6>
+          <h6><a href="https://www.youtube.com/@SophiesCreations-designs">Youtube</a></h6>
+          <h6><a href="https://www.instagram.com/sophievalkhof/">Instagram</a></h6>
+        </div>
+      </div>
+    </div>
+    <span
+      class="AboutMeMark"
+      style="font-size: 20px; cursor: pointer"
+      onclick="toggleNav('About_Me')"
+    >
+      About Me</span
+    >
+
+    <script>
+      function toggleNav(nav) {
+        document.getElementById(nav).style.width =
+          document.getElementById(nav).style.width != "1920px" ? "1920px" : "0";
+      }
+    </script>
+  </body>
+</html>
